@@ -1,0 +1,17 @@
+{
+    "name": "talla2xlc/legacy",
+    "authors": [
+        {
+            "name": "hrach333",
+            "email": "hrach@hrach.ru"
+        }
+    ],
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"App/"
+        }
+    }
+}

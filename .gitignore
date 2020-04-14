@@ -27,3 +27,5 @@ yarn-error.log*
 
 # vim temporary
 *.sw?
+
+/vendor/
