@@ -10,7 +10,9 @@ function LandingHeader() {
         <h3>Сервис</h3>
         <h1>Наследие</h1>
         <span>Создаем цифровой семейный <br/>архив</span>
-        <HeaderArrowSVG />
+        <button class="headerArrowBtn">
+          <HeaderArrowSVG />
+        </button>
     	</div>
     	<div className="headerSVG-div">
         <HeaderSVG />
