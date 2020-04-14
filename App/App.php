@@ -3,5 +3,8 @@ namespace App;
 
 class App 
 {
-    
+    public function getUser()
+    {
+        
+    }
 }
