@@ -108,6 +108,10 @@ width: 1440px;
   border-radius: 100px;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  cursor: pointer;
+  &:focus: {
+    outline:none;
+  }
 }
 
 .application {
