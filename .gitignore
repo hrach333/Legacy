@@ -29,3 +29,7 @@ yarn-error.log*
 *.sw?
 
 /vendor/
+
+#hrach files
+
+conectGithab.txt
