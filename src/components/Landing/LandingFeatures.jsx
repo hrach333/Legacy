@@ -1,8 +1,8 @@
 import React from 'react';
 import './LandingFeatures.sass'
-import FaceRecognition  from './LandingFeaturesService/faceRecognition.jsx';
-import ColorizationPhotos from './LandingFeaturesService/ColorizationPhotos';
-import SaveFamilyStories from './LandingFeaturesService/SaveFamilyStories';
+import FaceRecognition  from './LandingFeatures/LandingFeaturesService/faceRecognition.jsx';
+import ColorizationPhotos from './LandingFeatures/LandingFeaturesService/ColorizationPhotos';
+import SaveFamilyStories from './LandingFeatures/LandingFeaturesService/SaveFamilyStories';
 
 const LandingFeatures = () => {
   return (
@@ -15,7 +15,7 @@ const LandingFeatures = () => {
             Проект направлен не в прошлое, а в будущее 
             - цель не изучить предков, а оставить насление потомкам
            </p>
-           <img src="./LandingFeaturesService/images/jpg/faceRecognition-img.jpg" alt=""/>
+           <img src="./LandingFeatures/LandingFeaturesService/images/jpg/faceRecognition-img.jpg" alt=""/>
            <FaceRecognition />
            <ColorizationPhotos />
            <SaveFamilyStories />
