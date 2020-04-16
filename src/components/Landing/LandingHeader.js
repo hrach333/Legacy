@@ -23,7 +23,7 @@ function LandingHeader() {
         </button>
     	</div>
     	<div className="headerSVG-div">
-        <img src={landingHeaderImg} alt="header picture"/>
+        <img src={landingHeaderImg} alt="header_img"/>
       </div>
     </div>
   );
