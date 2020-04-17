@@ -5,18 +5,15 @@ namespace App;
 use App\Interfaces\iUsers;
 use Core\Model;
 use Core\Application;
+use Core\Mailer;
 
 class Users extends Application implements iUsers
 {
     public function all()
     {
-        $model = new Model();
-        if(\R::testConnection()){
-            echo 'OK';
-        }else{
-            echo 'error';
-        }
-        echo 'Сласс Users, метод all';
+        //$model = new Model();
+        $mail = new Mailer();
+        //echo 'Сласс Users, метод all';
     }
 
     public function setUser()
@@ -34,6 +31,7 @@ class Users extends Application implements iUsers
         }
         if(isset($_POST['email'])){
             $email = $_POST['email'];
-        }        
+        }
+
     }
 }

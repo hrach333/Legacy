@@ -3,6 +3,19 @@ namespace Core;
 
 class Application 
 {
+    public $config;
+
+    public function __construct()
+    {
+        $class =  get_class($this);
+
+        if($class == 'Core\Mailer'){
+            $configObj = new Configuration('mail','glob');
+            $this->config = $configObj->conf;           
+        }
+        
+                
+    }
     public static function dump($atr)
     {
         echo '<style>'."\n";
