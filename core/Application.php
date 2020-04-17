@@ -1,12 +1,12 @@
 <?php
-namespace App;
+namespace Core;
 
 class Application 
 {
     public static function dump($atr)
     {
         echo '<style>'."\n";
-        Application::getCss();
+        self::getCss();
         echo '</style>'."\n";
         echo '<div class="app_dump"><pre>';
         print_r($atr);
